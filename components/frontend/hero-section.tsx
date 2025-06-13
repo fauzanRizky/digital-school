@@ -1,16 +1,13 @@
 import { ArrowRight, Sparkles } from "lucide-react";
+import SmallTitle from "./small-title";
+import { Button } from "../ui/button";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full bg-gray-50 flex items-center justify-center px-4">
-      <div className="max-w-4xl mx-auto text-center space-y-8">
+    <section className="relative min-h-[50vh] w-full bg-gray-50 flex items-center justify-center px-4">
+      <div className="container max-w-6xl mx-auto px-4 md:px-6 flex flex-col items-center text-center space-y-10">
         {/* Welcome Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full border border-gray-200 shadow-sm">
-          <Sparkles className="w-4 h-4 text-orange-500" />
-          <span className="text-sm text-gray-600 font-medium">
-            Welcome to Lucis
-          </span>
-        </div>
+        <SmallTitle title="Welcome to Digital School" />
 
         {/* Main Heading */}
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
@@ -27,14 +24,17 @@ export default function HeroSection() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-          <button className="inline-flex items-center gap-2 px-6 py-3 bg-gray-900 text-white rounded-full font-medium hover:bg-gray-800 transition-colors">
-            Try for free
+          <Button className="inline-flex items-center gap-2 px-6 py-3  rounded-full font-medium hover:bg-gray-800 transition-colors">
+            Get Started
             <ArrowRight className="w-4 h-4" />
-          </button>
-          <button className="inline-flex items-center gap-2 px-6 py-3 bg-white text-gray-900 rounded-full font-medium border border-gray-200 hover:bg-gray-50 transition-colors">
-            See features
+          </Button>
+          <Button
+            variant="outline"
+            className="inline-flex items-center gap-2 px-6 py-3  rounded-full font-medium border border-gray-200 hover:bg-gray-50 transition-colors"
+          >
+            See All Features
             <ArrowRight className="w-4 h-4" />
-          </button>
+          </Button>
         </div>
       </div>
     </section>

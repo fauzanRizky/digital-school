@@ -19,14 +19,9 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import {
-  Code,
-  Book,
-  PieChart,
   DollarSign,
-  Fingerprint,
   Bell,
   Menu,
-  X,
   GraduationCap,
   Users,
   Calendar,
@@ -157,7 +152,7 @@ export default function SiteHeader() {
                       <h4 className="text-lg font-medium">Features</h4>
                       <Link
                         href="/features"
-                        className="text-sm text-blue-500 hover:underline"
+                        className="text-sm text-rose-500 hover:underline"
                       >
                         View all
                       </Link>
@@ -173,10 +168,10 @@ export default function SiteHeader() {
                         >
                           <div className="flex items-start gap-4">
                             <div className="p-2 bg-muted rounded-md group-hover:bg-muted/80">
-                              <feature.icon className="h-6 w-6 text-blue-500" />
+                              <feature.icon className="h-6 w-6 text-rose-500" />
                             </div>
                             <div>
-                              <h5 className="font-medium mb-1 group-hover:text-blue-500">
+                              <h5 className="font-medium mb-1 group-hover:text-rose-500">
                                 {feature.title}
                               </h5>
                               <p className="text-sm text-muted-foreground line-clamp-2">
