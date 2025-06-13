@@ -20,17 +20,6 @@ const premiumFeatures = [
   "Transport & Safety Control",
 ];
 
-const enterpriseFeatures = [
-  "Student Information System",
-  "Academic Excellence Suite",
-  "Smart Communitacion Hub",
-  "Financial Management Center",
-  "Transport & Safety Control",
-  "Advanced analytics",
-  "Priority support",
-  "Resource & Facilityy Manager",
-];
-
 const priceList = [
   {
     title: "Single User",
@@ -130,7 +119,7 @@ export default function Pricing() {
         <div className="mt-12">
           <p className="mt-8 text-sm text-gray-500 text-center max-w-3xl mx-auto">
             We value Purchasing Power Parity (PPP) and offer discount codes. To
-            prove your eligibility, please send your student ID, driver's
+            prove your eligibility, please send your student ID, driver&apos;s
             license, or similar documentation. You can contact us on our Contact
             page.
           </p>

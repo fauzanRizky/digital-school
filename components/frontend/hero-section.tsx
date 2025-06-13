@@ -1,4 +1,4 @@
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import SmallTitle from "./small-title";
 import { Button } from "../ui/button";
 

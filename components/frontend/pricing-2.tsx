@@ -57,7 +57,7 @@ export default function Pricing2() {
             </p>
             <div className="mt-10 flex items-center gap-x-4">
               <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">
-                What's included
+                What&apos;s included
               </h4>
               <div className="h-px flex-auto bg-gray-100"></div>
             </div>

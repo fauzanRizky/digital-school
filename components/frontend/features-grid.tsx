@@ -5,10 +5,8 @@ import {
   DollarSign,
   GraduationCap,
   MessageSquare,
-  RefreshCw,
   Users,
 } from "lucide-react";
-import SmallTitle from "./small-title";
 import SectionHeader from "./section-header";
 import Image from "next/image";
 
